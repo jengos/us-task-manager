@@ -1,0 +1,32 @@
+{
+  "name": "us-task-manager",
+  "description": "Aplicación personal para generar TODOs a partir de historias de usuario",
+  "author": "Juan E Narvaez",
+  "version": "1.0.0",
+  "createdAt": "2025-07-19",
+  "lastUpdated": "2025-07-19",
+  "technologies": {
+    "frontend": ["React", "TypeScript", "Vite", "TailwindCSS", "Flowbite"],
+    "backend": ["Firebase"],
+    "utils": ["luxon", "redux", "redux-thunk or saga"]
+  },
+  "features": [
+    "Generación automática de TODOs desde número de historia",
+    "Clasificación por tipo",
+    "Organización por sprint",
+    "Expiración automática de tareas a los 3 meses",
+    "Accesibilidad WCAG 2.2"
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-07-19",
+      "changes": [
+        "Estructura inicial del proyecto",
+        "Instalación de dependencias",
+        "Integración TailwindCSS + Flowbite",
+        "Soporte para WCAG 2.2"
+      ]
+    }
+  ]
+}
